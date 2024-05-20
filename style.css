@@ -24,6 +24,40 @@ body {
     grid-template-columns: 3fr 2fr;
 }
 
+.search-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 0 50px;
+}
+
+.greeting-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 0 50px;
+}
+
+.notifications-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    gap: 10px;
+    padding: 0 50px;
+}
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    gap: 10px;
+    padding: 0 50px;
+}
+
+
+
 .sidebar {
     background-color: lightskyblue;
     display: grid;
